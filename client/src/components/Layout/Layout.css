@@ -1,0 +1,26 @@
+.sidebar-section {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 90px;
+}
+
+.sidebar-toggle {
+    width: 230px;
+}
+
+.sidebar-toggle-icons {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg {
+    color: #f29f67;
+    background-color: white;
+    margin-top: 30px;
+}
